@@ -1,0 +1,18 @@
+# --- core maths / data ---
+numpy>=2.3,<2.4
+pandas>=2.3,<2.4          # built against NumPy 2.3+
+
+# --- web app & charts ---
+streamlit>=1.47,<2.0
+streamlit-autorefresh>=1.0,<2.0
+plotly==6.2.0             # latest available; includes plotly.express
+
+# --- market data & scraping ---
+yfinance>=0.2,<0.3
+tradingview-datafeed==2.1.1   # provides the TvDatafeed class
+cloudscraper>=1.2.71
+
+# --- networking / SSL ---
+requests>=2.31
+urllib3>=2.2
+certifi>=2025.6
